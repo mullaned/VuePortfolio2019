@@ -52,4 +52,8 @@ export default {
   a{
     text-decoration: none;
   }
+
+  .icon:hover {
+      transform: translateY(-5px);
+  }
 </style>

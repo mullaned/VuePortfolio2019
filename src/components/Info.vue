@@ -1,19 +1,8 @@
 <template>
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6" v-for="data in projectInfoData">
-                <div>
-                    <h4 class="text-left title-text">{{data.title}}</h4>
-                    <p class="text-left">{{data.info}}</p>  <v-icon class="myIcons">{{data.icon}}</v-icon>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <v-container fluid grid-list-md>
         <v-layout align-space-around justify-center row wrap fill-height>
-            <v-flex d-flex xs12 sm4 md4  v-for="data in projectInfoData">
-                <v-card color="blue lighten-2" dark>
+            <v-flex d-flex xs12 sm4 md4  v-for="(data, index) in projectInfoData" :key="index">
+                <v-card class="info-card" color="blue lighten-2" dark>
                     <v-card-title primary class="title"><v-icon class="">{{data.icon}}</v-icon>  {{data.title}}</v-card-title>
                     <v-card-text>{{data.info}}</v-card-text>
 
@@ -45,7 +34,7 @@ export default {
     .myIcons{
         color:#F86E19;
         font-size: 2rem;
-        float: left;
+        /* float: left; */
         position: absolute;
         top: 0;
         left: 0;
@@ -68,5 +57,12 @@ export default {
         margin-bottom: 15px;
         color: #222;
         line-height: 1.3em;
+    }
+
+    .info-card {
+        opacity: 0.85;
+    }
+    .info-card:hover {
+        opacity: 1;
     }
 </style>

@@ -91,8 +91,8 @@
         
 
          <v-layout justify-center>
-           <a href="https://github.com/mullaned" target="_blank"><v-icon>mdi-github-circle</v-icon></a>
-           <a href="https://ie.linkedin.com/in/mullaneydavid" target="_blank"><v-icon>mdi-linkedin</v-icon></a>
+           <a href="https://github.com/mullaned" target="_blank"><v-icon class="footer-icon">mdi-github-circle</v-icon></a>
+           <a href="https://ie.linkedin.com/in/mullaneydavid" target="_blank"><v-icon class="footer-icon">mdi-linkedin</v-icon></a>
 
   </v-layout>
 
@@ -119,7 +119,7 @@ export default {
     return {
       sideNav: false,
       menuItems: [
-        { title: 'Home', hashlink: '/', link: '/' },
+        { title: 'Home', hashlink: '#hero', link: '/' },
         { title: 'Projects', hashlink: '#projects', link: '/#projects' },
         { title: 'Skills', hashlink: '#skills', link: '/#skills' },
         { title: 'About', hashlink: '#about', link: '/#about' }
@@ -129,7 +129,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .fade-enter-active,
 .fade-leave-active {
   transition-property: opacity;
@@ -144,4 +144,9 @@ export default {
 .fade-leave-active {
   opacity: 0;
 }
+
+.footer-icon:hover {
+      transform: scale(1.2);
+  }
+
 </style>

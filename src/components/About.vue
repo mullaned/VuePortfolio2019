@@ -1,59 +1,50 @@
 <template>
 
-     <v-card id="about">
-      <v-card-text>
+ <section class="about" id="about">
+    <v-card-text>
         <h1 class="text-xs-center">About Me</h1>
+        <!-- <v-img
+              :src="profileImage"
+              height="200"
+              contain
+            ></v-img> -->
+        
         <h3 class="text-xs-center">A little bit about myself...</h3>
-      </v-card-text>
+    </v-card-text>
 
-      <v-container >
-        <v-layout align-space-around justify-center row wrap fill-height>
-            <v-flex d-flex xs12 md4>
-                <v-card  >
-
-                    <v-card-text>
-                        <h2 class="text-xs-center">Software Development</h2>
-                        <p class="text-xs-center">I have completed intensive software development training with the Code Institute Dublin</p>
-                    </v-card-text>
-                    <v-card-text>
-                        <h2 class="text-xs-center">Computer Engineer</h2>
-                        <p class="text-xs-center">I have a degree in Computer Engineering and Maths from Trinity College Dublin</p>
-                    </v-card-text>
-                    <v-card-text>
-                        <h2 class="text-xs-center">Experienced</h2>
-                        <p class="text-xs-center">I have worked on teams with Microsoft, Google and Arvato</p>
-                    </v-card-text>
-
-                </v-card>
-            </v-flex>
-            <v-flex d-flex xs12 md4>
-                <v-card  >
-
-                    <v-img :src="profileImage" aspect-ratio=""  contain></v-img>
-
-                </v-card>
-            </v-flex>
-            <v-flex d-flex xs12 md4>
-                <v-card  >
-
-                    <v-card-text>
-                        <h2 class="text-xs-center">Driven</h2>
-                        <p class="text-xs-center"> I am constantly looking to improve and develop new skills and features for my projects</p>
-                    </v-card-text>
-                    <v-card-text>
-                        <h2 class="text-xs-center">Design</h2>
-                        <p class="text-xs-center">I believe great functionality needs great design.  User experience and responsive design are core values</p>
-                    </v-card-text>
-                    <v-card-text>
-                        <h2 class="text-xs-center">Location</h2>
-                        <p class="text-xs-center">I am currently based in Dublin, Ireland</p>
-                    </v-card-text>
-
-                </v-card>
-            </v-flex>
-        </v-layout>
-    </v-container>
-    </v-card>
+    <ul class="grid">
+      <li>
+        <i class="fa fa-compass fa-3x"></i>
+        <h4>Software Development</h4>
+        <p>I have completed intensive software development training with the Code Institute Dublin</p>
+      </li>
+      <li>
+        <i class="fa fa-laptop fa-3x"></i>
+        <h4>Computer Engineer</h4>
+        <p>I have a degree in Computer Engineering and Maths from Trinity College Dublin</p>
+      </li>
+      <li>
+        <i class="fa fa-coffee fa-3x"></i>
+        <h4>Experienced</h4>
+        <p>I have worked on teams with Microsoft, Google and Arvato</p>
+      </li>
+      <li>
+        <i class="fa fa-car fa-3x"></i>
+        <h4>Driven</h4>
+        <p>I am constantly looking to improve and develop new skills and features for my projects</p>
+      </li>
+      <li>
+        <i class="fa fa-pencil fa-3x"></i>
+        <h4>Design</h4>
+        <p>I believe great functionality needs great design.  User experience and responsive design are core values</p>
+      </li>
+      <li>
+        <i class="fa fa-map fa-3x"></i>
+        <h4>Location</h4>
+        <p>I am currently based in Dublin, Ireland</p>
+      </li>
+    </ul>
+  </section>
 
 </template>
 
@@ -68,53 +59,77 @@ export default {
 </script>
 
 <style scoped>
-.title {
-        font-weight: 900;
-        font-size: 40px;
-        text-transform: uppercase;
-        margin-bottom: 0;
-        color: #222;
-        font-family: "Open Sans";
-        line-height: 13px;
-        padding-top: 50px;
-        padding-bottom: 20px;
+
+ul {
+    list-style: none;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;   
+}
+
+section h3.title {
+    text-transform: capitalize;
+    font: bold 32px "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;    
+}
+
+section p {
+    max-width: 775px;
+    line-height: 2;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about .grid li {
+    padding: 20px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.about .grid li i {
+    color: #6cccf1;
+}
+
+.about .grid li h4 {
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+@media (max-width: 1100px){
+
+    .about .grid li {
+        flex-basis: 50%;
+        padding: 20px;
     }
 
-    .subtitle {
-        display: block;
-        font-size: 110%;
-        line-height: 20px;;
-        text-transform: uppercase;
-        max-width: 80%;
-        margin: 0 auto;
-        margin-top: 15px;
-        letter-spacing: 1px;
-        padding: 0;
-        font-weight: 400;
-        color: rgb(71, 71, 71);
+}
+
+@media (max-width: 800px){
+    section {
+        padding: 50px 20px;
     }
 
-    i{
-        color: rgb(71, 71, 71);
-        font-size: 1.5rem;
-        display: inline-block;
-        text-align: center;
+    .about .grid li {
+        flex-basis: 100%;
+        padding: 20px;
     }
 
-    img{
-        width: 100%;
-
-    }
-
-    .anchor {
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 0;
-    z-index: -1;
-    top: -40px;
-    left: 0;
-    visibility: hidden;
 }
 
 </style>

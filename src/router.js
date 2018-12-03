@@ -27,10 +27,10 @@ export default new Router({
     if (to.hash) {
       return {
         selector: to.hash,
-        offset: { x: 0, y: 10 }
+        offset: { x: 0, y: 160 }
       }
     } else {
-      return { x: 0, y: 0 }
+      return { x: 0, y: 65 }
     }
   }
 })

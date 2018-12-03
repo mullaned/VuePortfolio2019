@@ -1,5 +1,6 @@
 <template>
   <v-parallax
+    id="hero"
     height="800"
     dark
     :src="heroImage"
@@ -55,9 +56,7 @@ export default {
     font-size: 70px;
     text-decoration: none;
   }
-  .icon:hover{
-    color: white;
-  }
+  
   a{
     text-decoration: none;
   }
@@ -72,4 +71,22 @@ export default {
     margin-left: auto;
     margin-right: auto;
 }
+
+@keyframes fadein {
+    
+    100% {
+      /* transform: scale(1); */
+      opacity: 1;
+    }
+  }
+
+  h1, h2, h3, hr, .icon {
+    opacity: 0;
+    animation: 2s fadein 0.5s forwards;
+  }
+
+  .icon:hover {
+      transform: translateY(-5px);
+      color: white;
+  }
 </style>

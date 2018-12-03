@@ -1,12 +1,13 @@
 <template>
   <section id="home">
     <hero></hero>
-    <projects></projects>
+    <projects-modal></projects-modal>
      <info></info>
      <banner></banner>
-     <skills></skills>
-     <banner2></banner2>
      <about></about>
+     <banner2></banner2>
+     <skills></skills>
+     
   </section>
 
 </template>
@@ -21,6 +22,7 @@ import Skills from '../components/Skills'
 import Banner from '../components/Banner'
 import About from '../components/About'
 import Banner2 from '../components/Banner2'
+import ProjectsModal from '../components/ProjectsModal'
 
 export default {
   components: {
@@ -31,7 +33,8 @@ export default {
     Skills,
     Banner,
     About,
-    Banner2
+    Banner2,
+    ProjectsModal
   }
 }
 </script>

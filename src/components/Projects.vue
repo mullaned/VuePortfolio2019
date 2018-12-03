@@ -8,7 +8,7 @@
 
        <v-container>
         <v-layout  justify-center row wrap fill-height>
-          <v-flex d-flex xs12 sm6 md3 v-for="data in projectData">
+          <v-flex d-flex xs12 sm6 md3 v-for="(data,index) in projectData" :key="index">
              <div class="card" >
                 <div class="card__side card__side--front">
                   <v-img :src="data.imageLink" aspect-ratio="" height="250"  contain></v-img>
@@ -273,6 +273,34 @@ export default {
           previousProjectLink: '',
           nextProjectLink: '',
           githubLink: 'https://github.com/mullaned/zone-project'
+        },
+        {
+          id: 17,
+          imageLink: require('../assets/img/header/screens/movie-listings-project.jpg'),
+          title: 'Bitcoin Ticker',
+          skills: ['HTML/CSS', 'JavaScript',],
+          subtitle: 'XHR, Fetch, jQuery and Axios request to a API',
+          info: 'The latest movies from the TMDb API are retrieved and displayed in order of popularity.  The movies can be filtered based on genre or the movies rating using the min rating slider.  The genres listed are dynamic and only contain genres of the movies shown.',
+          features: ['XHR', 'Fetch', 'jQuery', 'Axios'],
+          projectLink: 'http://bitcoin-ticker.s3-website-eu-west-1.amazonaws.com/',
+          screenshotLink: require('../assets/img/projects/movie-listings.jpg'),
+          previousProjectLink: '',
+          nextProjectLink: '',
+          githubLink: 'https://github.com/mullaned/zone-project'
+        },
+        {
+          id: 18,
+          imageLink: require('../assets/img/header/screens/movie-listings-project.jpg'),
+          title: 'Random User Generator',
+          skills: ['HTML/CSS', 'JavaScript', ],
+          subtitle: 'Get a random users info using the Fetch method',
+          info: 'Clicking the button will request a random user from the API using fetch, their details will be displayed.',
+          features: ['Fetch',],
+          projectLink: 'http://random-user-gen.s3-website-eu-west-1.amazonaws.com/',
+          screenshotLink: require('../assets/img/projects/movie-listings.jpg'),
+          previousProjectLink: '',
+          nextProjectLink: '',
+          githubLink: 'https://github.com/mullaned/random-user-gen'
         }
       ]
     }
