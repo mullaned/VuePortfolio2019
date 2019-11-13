@@ -17,10 +17,13 @@
 
       <h2 class="text-xs-center display-1">Software Developer / Designer / Photographer</h2>
       <hr>
-      <h2 class="subheading display-1 text-xs-center">HTML / CSS</h2>
-      <h3 class="subheading display-1 text-xs-center">JavaScript</h3>
+      <div class="d-flex justify-content-center w-50 skills">
+        <h2 class="subheading display-1 text-xs-center w-50">HTML 5, CSS 3,<br> Bootstrap 4, SCSS, <br> Axios, jQuery, WebPack,<br> React JS, Vue JS, ES6, <br> REST API, Drupal 8 </h2>
+      </div>
+      
+      <!-- <h3 class="subheading display-1 text-xs-center">JavaScript</h3>
       <h3 class="subheading display-1 text-xs-center">Vue JS</h3>
-      <h3 class="subheading display-1 text-xs-center">Python / Flask</h3>
+      <h3 class="subheading display-1 text-xs-center">React JS</h3> -->
     </v-card-text>
 
       <form style="display: inline-block">
@@ -43,6 +46,12 @@ export default {
 </script>
 
 <style scoped>
+
+.skills {
+  margin-left: auto;
+  margin-right: auto;
+}
+
   .repeating-gradient {
     background-image: repeating-linear-gradient(-45deg,
                         rgba(255,0,0,.25),
@@ -56,7 +65,7 @@ export default {
     font-size: 70px;
     text-decoration: none;
   }
-  
+
   a{
     text-decoration: none;
   }
@@ -73,7 +82,7 @@ export default {
 }
 
 @keyframes fadein {
-    
+
     100% {
       /* transform: scale(1); */
       opacity: 1;

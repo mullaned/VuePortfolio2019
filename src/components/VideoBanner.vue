@@ -1,24 +1,26 @@
 <template>
-    <section class="video-container">
-        <iframe id="video" src="//www.youtube.com/embed/fQigKG_KHR0?
-            autoplay=0&
-            controls=0&
-            loop=1&
-            autohide=1&
-            rel=0&
-            fs=0&
-            iv_load_policy=3&
-            hd=1&
-            showinfo=0
-            modestbranding=1&
-            disablekb=1&
-            enablejsapi=1" frameborder="0"></iframe>
+  <section class="video-container">
+    <iframe id="video" src="//www.youtube.com/embed/fQigKG_KHR0?
+      autoplay=0&
+      controls=0&
+      loop=1&
+      autohide=1&
+      rel=0&
+      fs=0&
+      iv_load_policy=3&
+      hd=1&
+      showinfo=0
+      modestbranding=1&
+      disablekb=1&
+      enablejsapi=1" frameborder="0">
+    </iframe>
 
-        <div class="overlay-desc ">
-                <!-- <h2 class="text1 text-center">SOFTWARE DEVELOPMENT</h2> -->
-                <h2 class="text2 text-center">DESIGN, <span class="stresscolor">DEVELOP</span>, DEPLOY</h2>
-        </div>
+    <div class="overlay-desc ">
+      <h2 class="text2 text-center">DESIGN, <span class="stresscolor">DEVELOP</span>, DEPLOY</h2>
+    </div>
+
 	</section>
+
 </template>
 
 <style scoped>
@@ -53,7 +55,7 @@
   letter-spacing: 1px;
   display: block;
   margin-bottom: 10px;
-  font-family: "Open Sans";
+  font-family: 'Poppins', "Open Sans"!important;
   color: white;
 }
 
@@ -65,7 +67,7 @@
   letter-spacing: 1px;
   display: block;
   margin-top: 0;
-  font-family: "Open Sans";
+  font-family: 'Poppins', "Open Sans"!important;
   color: white;
 }
 </style>

@@ -8,7 +8,7 @@
               height="200"
               contain
             ></v-img> -->
-        
+
         <h3 class="text-xs-center">A little bit about myself...</h3>
     </v-card-text>
 
@@ -69,66 +69,66 @@ section {
 	flex-direction: column;
 	align-items: center;
 	padding: 100px 80px;
-    background-color: #f5f5f5;
-    box-sizing: border-box;   
+  background-color: #f5f5f5;
+  box-sizing: border-box;
 }
 
 section h3.title {
-    text-transform: capitalize;
-    font: bold 32px "Open Sans", sans-serif;
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-align: center;    
+  text-transform: capitalize;
+  font: bold 32px "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 section p {
-    max-width: 775px;
-    line-height: 2;
-    padding: 0 20px;
-    margin-bottom: 30px;
-    text-align: center;
+  max-width: 775px;
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .grid {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about .grid li {
-    padding: 20px;
-    flex-basis: 33%;
-    text-align: center;
+  padding: 20px;
+  flex-basis: 33%;
+  text-align: center;
 }
 
 .about .grid li i {
-    color: #6cccf1;
+  color: #6cccf1;
 }
 
 .about .grid li h4 {
-    font-size: 20px;
-    margin: 25px 0;
+  font-size: 20px;
+  margin: 25px 0;
 }
 
 @media (max-width: 1100px){
 
-    .about .grid li {
-        flex-basis: 50%;
-        padding: 20px;
-    }
+  .about .grid li {
+    flex-basis: 50%;
+    padding: 20px;
+  }
 
 }
 
 @media (max-width: 800px){
-    section {
-        padding: 50px 20px;
-    }
+  section {
+    padding: 50px 20px;
+  }
 
-    .about .grid li {
-        flex-basis: 100%;
-        padding: 20px;
-    }
+  .about .grid li {
+    flex-basis: 100%;
+    padding: 20px;
+  }
 
 }
 

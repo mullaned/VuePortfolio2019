@@ -7,7 +7,7 @@
      <about></about>
      <banner2></banner2>
      <skills></skills>
-     
+
   </section>
 
 </template>

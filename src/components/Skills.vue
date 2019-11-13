@@ -134,7 +134,7 @@ img {
   text-transform: uppercase;
   margin-bottom: 0;
   color: #222;
-  font-family: "Open Sans";
+  font-family: 'Poppins', "Open Sans"!important;
   line-height: 13px;
   padding-top: 20px;
   padding-bottom: 20px;

@@ -52,7 +52,7 @@ export default {
     }
     .title-text{
         font-weight: 700;
-        font-family: "Open Sans";
+        font-family: 'Poppins', "Open Sans"!important;
         font-size: 18px;
         margin-bottom: 15px;
         color: #222;

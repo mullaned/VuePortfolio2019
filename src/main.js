@@ -5,8 +5,11 @@ import './plugins/bootstrap-vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import axios from 'axios'
 import '@mdi/font/css/materialdesignicons.css'
 var VueScrollTo = require('vue-scrollto')
+
+Vue.use(axios)
 
 Vue.use(VueScrollTo, {
   container: 'body',
