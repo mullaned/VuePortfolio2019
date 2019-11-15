@@ -112,7 +112,9 @@
         </v-card-title>
 
         <v-card-actions class="grey darken-3 justify-center">
-          &copy; <script>document.write(new Date().getFullYear())</script> —
+          &copy; 
+          {{currentYear}}
+          —
           <strong>David Mullaney</strong>
         </v-card-actions>
       </v-card>
@@ -131,6 +133,7 @@ export default {
   data () {
     return {
       sideNav: false,
+      currentYear: new Date().getFullYear(),
       menuItems: [
         { title: 'Home', hashlink: '#hero', link: '/' },
         { title: 'Projects', hashlink: '#projects', link: '/#projects' },
