@@ -112,7 +112,7 @@
         </v-card-title>
 
         <v-card-actions class="grey darken-3 justify-center">
-          &copy;2019 —
+          &copy; <script>document.write(new Date().getFullYear())</script> —
           <strong>David Mullaney</strong>
         </v-card-actions>
       </v-card>
