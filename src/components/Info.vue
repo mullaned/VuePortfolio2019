@@ -21,7 +21,7 @@ export default {
         { id: 1, icon: 'mdi-speedometer', title: 'Performance', info: 'Projects built for speed, performance and usability. User experience and responsive design are core values.' },
         { id: 2, icon: 'mdi-airplane-takeoff', title: 'Elegant', info: 'Project code is clean, thoughfully commented and well documented for both users and colleagues to understand.' },
         { id: 3, icon: 'mdi-github-circle', title: 'Version Control', info: 'I use git and github on all of my projects for version control. Using multiple branches to deploy different styles and features.' },
-        { id: 4, icon: 'mdi-shield-plus-outline', title: 'Modern', info: 'I utilize the latest technology to build and deploy my projects. Always looking to improve and add features.' },
+        { id: 4, icon: 'mdi-shield-plus-outline', title: 'Modern', info: 'I utilize the latest technology to build and deploy my projects. Always looking to improve and add new features.' },
         { id: 5, icon: 'mdi-cloud-outline', title: 'Responsive', info: 'Projects need to be adaptable to the wide array of possible devices they will be viewed on while meeting the needs of customers and clients.' },
         { id: 6, icon: 'mdi-lifebuoy', title: 'Test Driven', info: 'I use TDD to ensure new features and improvements do not conflict with existing work.' }]
 
