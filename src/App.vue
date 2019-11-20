@@ -112,7 +112,7 @@
         </v-card-title>
 
         <v-card-actions class="grey darken-3 justify-center">
-          &copy; 
+          &copy;
           {{currentYear}}
           —
           <strong>David Mullaney</strong>

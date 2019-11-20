@@ -20,7 +20,7 @@
       <div class="d-flex justify-content-center w-50 skills">
         <h2 class="subheading display-1 text-xs-center w-50">HTML 5, CSS 3,<br> Bootstrap 4, SCSS, <br> Axios, jQuery, WebPack,<br> React JS, Vue JS, ES6, <br> REST API, Drupal 8 </h2>
       </div>
-      
+
       <!-- <h3 class="subheading display-1 text-xs-center">JavaScript</h3>
       <h3 class="subheading display-1 text-xs-center">Vue JS</h3>
       <h3 class="subheading display-1 text-xs-center">React JS</h3> -->
