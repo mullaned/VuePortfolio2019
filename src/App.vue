@@ -15,14 +15,14 @@
             </v-list-tile-content>
             <v-list-tile-content>
               <v-list-tile-title>
-                <a href="https://github.com/mullaned" target="_blank">
+                <a href="https://github.com/mullaned" target="_blank" rel="noopener noreferrer">
                   <v-icon class="icon">mdi-github-circle</v-icon>
                 </a>
               </v-list-tile-title>
             </v-list-tile-content>
             <v-list-tile-content>
               <v-list-tile-title>
-                <a href="https://ie.linkedin.com/in/mullaneydavid" target="_blank">
+                <a href="https://ie.linkedin.com/in/mullaneydavid" target="_blank" rel="noopener noreferrer">
                   <v-icon class="icon">mdi-linkedin</v-icon>
                 </a>
               </v-list-tile-title>
@@ -102,10 +102,10 @@
       <v-card class="flex" flat tile>
         <v-card-title class="gray">
           <v-layout justify-center>
-            <a href="https://github.com/mullaned" target="_blank">
+            <a href="https://github.com/mullaned" target="_blank" rel="noopener noreferrer">
               <v-icon class="footer-icon">mdi-github-circle</v-icon>
             </a>
-            <a href="https://ie.linkedin.com/in/mullaneydavid" target="_blank">
+            <a href="https://ie.linkedin.com/in/mullaneydavid" target="_blank" rel="noopener noreferrer">
               <v-icon class="footer-icon">mdi-linkedin</v-icon>
             </a>
           </v-layout>

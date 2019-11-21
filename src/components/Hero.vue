@@ -27,8 +27,8 @@
     </v-card-text>
 
       <form style="display: inline-block">
-    <a href="https://github.com/mullaned" target="_blank"><v-icon class="icon ">mdi-github-circle</v-icon></a>
-      <a href="https://ie.linkedin.com/in/mullaneydavid" target="_blank"><v-icon class="icon">mdi-linkedin</v-icon></a>
+    <a href="https://github.com/mullaned" target="_blank" rel="noopener noreferrer"><v-icon class="icon ">mdi-github-circle</v-icon></a>
+      <a href="https://ie.linkedin.com/in/mullaneydavid" target="_blank" rel="noopener noreferrer"><v-icon class="icon">mdi-linkedin</v-icon></a>
    </form>
 
     </v-layout>

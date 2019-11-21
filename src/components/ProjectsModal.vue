@@ -43,13 +43,14 @@
                             <v-layout align-center>
                               <v-flex xs12 sm4 text-xs-center>
                                 <div>
-                                  <a v-if="data.fields.githubLink" :href="data.fields.githubLink" target="_blank">
+                                  <a v-if="data.fields.githubLink" :href="data.fields.githubLink" target="_blank" rel="noopener noreferrer">
                                     <v-btn round color="blue lighten-1">Github Link</v-btn>
                                   </a>
                                   <a
                                     v-if="data.fields.projectLink"
                                     :href="data.fields.projectLink"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                   >
                                     <v-btn round color="blue lighten-1">View Project</v-btn>
                                   </a>
