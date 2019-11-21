@@ -64,10 +64,6 @@ export default {
   }
 }
 
-function skillschroll () {
-  var elmnt = document.getElementById('skills')
-  elmnt.scrollIntoView({ behavior: 'smooth', block: 'start' })
-}
 </script>
 
 <style scoped>
