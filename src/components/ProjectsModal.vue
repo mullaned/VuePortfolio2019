@@ -11,7 +11,7 @@
           <div class="card">
             <div class="card__side card__side--front">
               <v-img :src="data.fields.titleImage.fields.file.url" aspect-ratio height="250" contain></v-img>
-              
+
             </div>
 
             <v-card color="blue-grey lighten-3 card__side card__side--back card__side--back-1" dark>
@@ -54,7 +54,7 @@
                                   >
                                     <v-btn round color="blue lighten-1">View Project</v-btn>
                                   </a>
-                                  
+
                                 </div>
                               </v-flex>
                             </v-layout>
@@ -114,18 +114,17 @@
 
 <script>
 export default {
-  mounted() {
-     this.$contentful
-        .getEntries()
-        .then((response) => {this.projectData = response.items})
-        .catch(console.error)
+  mounted () {
+    this.$contentful
+      .getEntries()
+      .then((response) => { this.projectData = response.items })
+      .catch(console.error)
   },
   data () {
     return {
-      projectData: [],
+      projectData: []
     }
-  },
-  
+  }
 
 }
 </script>

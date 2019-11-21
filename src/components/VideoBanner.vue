@@ -19,7 +19,7 @@
       <h2 class="text2 text-center">DESIGN, <span class="stresscolor">DEVELOP</span>, DEPLOY</h2>
     </div>
 
-	</section>
+  </section>
 
 </template>
 

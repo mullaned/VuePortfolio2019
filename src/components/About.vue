@@ -3,7 +3,6 @@
  <section class="about" id="about">
     <v-card-text>
         <h1 class="text-xs-center">About Me</h1>
-        
 
         <h3 class="text-xs-center">A little bit about myself...</h3>
     </v-card-text>
@@ -61,12 +60,12 @@ ul {
 }
 
 section {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 100px 80px;
-  background-color: #f5f5f5;
-  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 80px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
 }
 
 section h3.title {

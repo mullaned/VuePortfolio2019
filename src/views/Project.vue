@@ -51,12 +51,12 @@
                 </v-tab>
                 <v-tab-item>
                     <v-card flat>
-                        <v-card-text v-for="feature in features">{{ feature }}</v-card-text>
+                        <v-card-text v-for="(feature,index) in features" :key="index">{{ feature }} </v-card-text>
                     </v-card>
                 </v-tab-item>
                 <v-tab-item>
                     <v-card flat>
-                        <v-card-text v-for="skill in skills">{{ skill }}</v-card-text>
+                        <v-card-text v-for="(skill,index) in skills" :key="index">{{ skill }}</v-card-text>
                     </v-card>
                 </v-tab-item>
                 </v-tabs>

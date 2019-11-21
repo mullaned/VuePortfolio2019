@@ -8,7 +8,7 @@
             <br>
 
             <div class="row">
-                <div class="col-lg-4 col-sm-6 img-block" v-for="data in skillsData">
+                <div class="col-lg-4 col-sm-6 img-block" v-for="(data,index) in skillsData" :key="index">
                     <img :src="data.imageLink" alt="" class="center-block">
 
                 </div>
@@ -25,71 +25,39 @@ export default {
       skillsData: [
         {
           id: 1,
-          imageLink: require('../assets/img/header/icons/html.png'),
-          title: 'Portfolio Site',
-          skills: ['HTML / CSS', 'JavaScript', 'PHP']
+          imageLink: require('../assets/img/header/icons/html.png')
         },
         {
           id: 2,
-          imageLink: require('../assets/img/header/icons/js.png'),
-          title: 'Light Explorers',
-          skills: ['HTML / CSS', 'JavaScript', 'Angular JS', 'PHP']
+          imageLink: require('../assets/img/header/icons/js.png')
         },
         {
           id: 3,
-          imageLink: require('../assets/img/header/icons/vue icon.png'),
-          title: 'Design Explorers',
-          skills: ['HTML / CSS', 'JavaScript', 'PHP']
+          imageLink: require('../assets/img/header/icons/vue icon.png')
         },
         {
           id: 4,
-          imageLink: require('../assets/img/header/icons/python.png'),
-          title: 'Data Visualisation',
-          skills: ['HTML / CSS', 'JavaScript', 'Python', 'Flask', 'Mongo DB']
+          imageLink: require('../assets/img/header/icons/python.png')
         },
         {
           id: 5,
-          imageLink: require('../assets/img/header/icons/flask.png'),
-          title: 'Event Guide Web App',
-          skills: [
-            'HTML / CSS',
-            'JavaScript',
-            'Python',
-            'Flask',
-            'Mongo DB',
-            'API'
-          ]
+          imageLink: require('../assets/img/header/icons/flask.png')
         },
         {
           id: 6,
-          imageLink: require('../assets/img/header/icons/sql.png'),
-          title: 'Event Guide Mobile App',
-          skills: [
-            'HTML / CSS',
-            'JavaScript',
-            'Python',
-            'Flask',
-            'Mongo DB',
-            'API'
-          ]
+          imageLink: require('../assets/img/header/icons/sql.png')
         },
         {
           id: 7,
-          imageLink: require('../assets/img/header/icons/lightroom.jpg'),
-          title: 'Djanjo Full Stack',
-          skills: ['HTML / CSS', 'JavaScript', 'Python', 'Django', 'SQL']
+          imageLink: require('../assets/img/header/icons/lightroom.jpg')
         },
         {
           id: 8,
-          imageLink: require('../assets/img/header/icons/adobe-photoshop-cs6.svg'),
-          title: 'Drum Kit',
-          skills: ['HTML / CSS', 'JavaScript']
+          imageLink: require('../assets/img/header/icons/adobe-photoshop-cs6.svg')
         },
         {
           id: 9,
-          imageLink: require('../assets/img/header/icons/adobe-illustrator-cs6.svg'),
-          title: 'Dice Game',
-          skills: ['HTML / CSS', 'JavaScript']
+          imageLink: require('../assets/img/header/icons/adobe-illustrator-cs6.svg')
         }
       ]
     }
