@@ -118,7 +118,6 @@ export default {
     this.$contentful
       .getEntries()
       .then((response) => { this.projectData = response.items })
-      .catch(console.error)
   },
   data () {
     return {
