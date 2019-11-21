@@ -3,11 +3,7 @@
  <section class="about" id="about">
     <v-card-text>
         <h1 class="text-xs-center">About Me</h1>
-        <!-- <v-img
-              :src="profileImage"
-              height="200"
-              contain
-            ></v-img> -->
+        
 
         <h3 class="text-xs-center">A little bit about myself...</h3>
     </v-card-text>

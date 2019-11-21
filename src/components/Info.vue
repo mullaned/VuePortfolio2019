@@ -34,7 +34,6 @@ export default {
     .myIcons{
         color:#F86E19;
         font-size: 2rem;
-        /* float: left; */
         position: absolute;
         top: 0;
         left: 0;

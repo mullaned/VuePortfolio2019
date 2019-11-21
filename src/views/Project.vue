@@ -28,7 +28,6 @@
                             <div>
                                 <a v-if="githubLink" :href="githubLink" target="_blank" rel="noopener noreferrer"><v-btn round color="blue lighten-1">Github Link</v-btn></a>
                                 <a v-if="projectLink" :href="projectLink" target="_blank" rel="noopener noreferrer"><v-btn round color="blue lighten-1">View Project</v-btn></a>
-                                <!-- <router-link to="/#projects"><v-btn round color="blue lighten-1">Projects List</v-btn></router-link> -->
                             </div>
                         </v-flex>
                     </v-layout>

@@ -13,7 +13,6 @@
 </template>
 
 <script>
-// import HelloWorld from '../components/HelloWorld'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Info from '../components/Info'

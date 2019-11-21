@@ -11,7 +11,7 @@
           <div class="card">
             <div class="card__side card__side--front">
               <v-img :src="data.fields.titleImage.fields.file.url" aspect-ratio height="250" contain></v-img>
-              <!-- <h1 class="text-xs-center">{{data.fields.titleImage.fields.file.url}}</h1> -->
+              
             </div>
 
             <v-card color="blue-grey lighten-3 card__side card__side--back card__side--back-1" dark>
@@ -54,7 +54,7 @@
                                   >
                                     <v-btn round color="blue lighten-1">View Project</v-btn>
                                   </a>
-                                  <!-- <router-link to="/#projects"><v-btn round color="blue lighten-1">Projects List</v-btn></router-link> -->
+                                  
                                 </div>
                               </v-flex>
                             </v-layout>
@@ -175,7 +175,6 @@ img {
       transform: rotateY(180deg);
       border-radius: 20px;
       box-shadow: 0 15px 40px rgba(#000, 0.15);
-      //   height: 150px;
       margin-top: 40px;
       margin-left: 40px;
       width: 80%;
