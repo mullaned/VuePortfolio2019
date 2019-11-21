@@ -12,7 +12,7 @@
       showinfo=0
       modestbranding=1&
       disablekb=1&
-      enablejsapi=1" frameborder="0">
+      enablejsapi=1">
     </iframe>
 
     <div class="overlay-desc ">
