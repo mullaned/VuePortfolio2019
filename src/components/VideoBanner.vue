@@ -1,6 +1,6 @@
 <template>
   <section class="video-container">
-    <iframe id="video" src="//www.youtube.com/embed/fQigKG_KHR0?
+    <iframe title="banner" id="video" src="//www.youtube.com/embed/fQigKG_KHR0?
       autoplay=0&
       controls=0&
       loop=1&

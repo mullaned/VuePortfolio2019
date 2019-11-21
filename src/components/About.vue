@@ -14,32 +14,32 @@
 
     <ul class="grid">
       <li>
-        <i class="fa fa-compass fa-3x"></i>
+        <em class="fa fa-compass fa-3x"></em>
         <h4>Software Development</h4>
         <p>I have completed intensive software development training with the Code Institute Dublin</p>
       </li>
       <li>
-        <i class="fa fa-laptop fa-3x"></i>
+        <em class="fa fa-laptop fa-3x"></em>
         <h4>Computer Engineer</h4>
         <p>I have a degree in Computer Engineering and Maths from Trinity College Dublin</p>
       </li>
       <li>
-        <i class="fa fa-coffee fa-3x"></i>
+        <em class="fa fa-coffee fa-3x"></em>
         <h4>Experienced</h4>
         <p>I have worked on teams with Microsoft, Google and Arvato</p>
       </li>
       <li>
-        <i class="fa fa-car fa-3x"></i>
+        <em class="fa fa-car fa-3x"></em>
         <h4>Driven</h4>
         <p>I am constantly looking to improve and develop new skills and features for my projects</p>
       </li>
       <li>
-        <i class="fa fa-pencil fa-3x"></i>
+        <em class="fa fa-pencil fa-3x"></em>
         <h4>Design</h4>
         <p>I believe great functionality needs great design.  User experience and responsive design are core values</p>
       </li>
       <li>
-        <i class="fa fa-map fa-3x"></i>
+        <em class="fa fa-map fa-3x"></em>
         <h4>Location</h4>
         <p>I am currently based in Dublin, Ireland</p>
       </li>

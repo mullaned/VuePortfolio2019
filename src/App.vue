@@ -6,7 +6,7 @@
           <v-list-tile avatar>
             <router-link to="/">
               <v-list-tile-avatar>
-                <img src="../src/assets/img/header/icons/daveicon.jpg">
+                <img alt="icon" src="../src/assets/img/header/icons/daveicon.jpg">
               </v-list-tile-avatar>
             </router-link>
 
